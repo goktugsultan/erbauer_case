@@ -1,0 +1,148 @@
+/* Cover Section */
+
+html,
+body,
+#cover {
+    height: 100%;
+}
+
+#cover {
+    background: url('/images/cover-bg.png');
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.bg-menu {
+    background-color: #221E20;
+    position: relative;
+    top: 0;
+}
+
+.logo-image {
+    width: 160px;
+    height: 40px;
+}
+
+.fixed-top {
+    max-width: 1140px;
+    margin: 20px auto;
+}
+
+a.nav-link {
+    font-family: 'Montserrat', 'sans-serif';
+    transition: color 0.5s ease;
+    -webkit-transition: color 0.5s ease;
+    -moz-transition: color 0.5s ease;
+    -o-transition: color 0.5s ease;
+}
+
+a.nav-link:hover {
+    color: #3bb4c1 !important;
+    border-bottom: 2px solid #3bb4c1;
+}
+
+/* Reason Section */
+
+.reason-header h3 {
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: 600;
+}
+
+.reason-header p {
+    font-family: 'Droid Serif', 'serif';
+    font-style: italic;
+    font-size: 18px;
+}
+
+.item-circle {
+    border: 3px solid #3bb4c1;
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    border-radius: 35px;
+}
+
+.reason-content i {
+    color: #3bb4c1;
+    line-height: 70px;
+}
+
+.reason-content h4 {
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: 600;
+    border-bottom: 1px solid #3bb4c1;
+}
+
+.reason-content h4:hover {
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: 600;
+    border-bottom: 3px solid #3bb4c1;
+}
+
+.reason-content p {
+    font-family: 'Roboto Slab', 'serif';
+    font-size: 18px;
+}
+
+/* Product Section */
+
+.product-content h4 {
+    font-family: 'Montserrat', 'sans-serif';
+    color: 'black';
+}
+
+#product card {
+    position: relative;
+    cursor: pointer;
+}
+
+.imageOverlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #1886c7;
+    opacity: 0;
+    transition: 1s ease;
+}
+
+.card:hover .imageOverlay {
+    opacity: .7;
+}
+
+.imageText {
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 32%;
+}
+
+/* Video Section */
+
+#video {
+    background: linear-gradient(#4592af, #113f67)
+}
+
+/* Contact Section */
+
+#contact img {
+    width: 80%;
+    height: 50%;
+}
+
+#contact {
+    background: linear-gradient(#b6d0e6, #4592af)
+}
+
+#contact h2 {
+    font-family: 'Montserrat', 'sans-serif';
+}
+
+#contact p {
+    font-size: 18px;
+}

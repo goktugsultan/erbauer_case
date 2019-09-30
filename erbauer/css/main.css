@@ -7,7 +7,7 @@ body,
 }
 
 #cover {
-    background: url('/images/cover-bg.png');
+    background: url('../images/cover-bg.png');
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
